@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::after {
+  box-sizing: bordr-box;
+}
+
+*::before {
+  box-sizing: bordr-box;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.preview-wrapper {
+  flex: 1;
+  width: 50%;
+  height: 100%;
+}
+
+.code-wrapper {
+  flex: 1;
+  width: 50%;
+}
+
+#code {
+  overflow: hidden;
+  height: 100%;
+}

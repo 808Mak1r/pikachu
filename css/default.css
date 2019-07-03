@@ -11,7 +11,9 @@
 *::before {
   box-sizing: bordr-box;
 }
-
+.token.comment{color: black}
+.token.selector{ color: black; }
+.token.property{ color: black; }
 body {
   display: flex;
   flex-direction: row;

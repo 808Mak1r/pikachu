@@ -33,3 +33,23 @@ body {
   overflow: hidden;
   height: 100%;
 }
+.actions{
+  position: absolute;
+  right: 15px;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.actions > button{
+  margin: 5px;
+  background: #FFDC2B;
+  padding: 5px 8px;
+  border: none;
+  border-radius: 7px; 
+}
+.actions > button.active{
+  box-shadow: 1px 1px 4px rgba(0,0,0,0.7)
+}
+.actions > button:focus{
+  outline: none;
+} 
